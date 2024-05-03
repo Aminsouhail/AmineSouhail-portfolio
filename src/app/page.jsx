@@ -21,7 +21,7 @@ const Homepage = () => {
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
           <h1 className="text-4xl md:text-4xl font-bold">
-            Full Stack Wizardry Shaping Tomorrow's Digital Realm
+            Full Stack Wizardry Shaping Tomorrow s Digital Realm
           </h1>
           {/* DESC */}
           <p className="md:text-xl">

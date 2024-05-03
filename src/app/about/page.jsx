@@ -37,7 +37,7 @@ const AboutPage = () => {
               Driven by passion and armed with a web development certificate, I embarked on a self-taught journey into the digital realm. Through relentless dedication, I mastered the art of full-stack development, blending creativity with code. My story is one of self-motivation and endless innovation, shaping immersive digital experiences that defy expectations.
             </p>
             <span className="italic">
-              "Learning is the only thing the mind never exhausts, never fears, and never regrets." - Leonardo da Vinci
+              Learning is the only thing the mind never exhausts, never fears, and never regrets." - Leonardo da Vinci
             </span>
             <div className="self-end"></div>
           </div>
