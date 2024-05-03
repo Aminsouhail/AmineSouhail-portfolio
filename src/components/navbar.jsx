@@ -78,7 +78,7 @@ const Navbar = () => {
       {/* LOGO */}
       <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
         <a href="/" className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center">
-          <span className="text-white mr-1">  Amine  </span>
+          <span className="text-white mr-1">Amine</span>
           <span className="w-20 h-8 rounded bg-white text-black flex items-center justify-center">
              Souhail  
           </span>
@@ -91,21 +91,21 @@ const Navbar = () => {
           <Image src="/github.png" alt="GitHub" width={24} height={24} />
         </a>
         {/* End of GitHub link */}
-        <a href="/">
-          <Image src="/dribbble.png" alt="" width={24} height={24} />
+        {/* LinkedIn Link */}
+        <a href="https://www.linkedin.com/in/amine-souhail/" target="_blank" rel="noopener noreferrer">
+          <Image src="/linkedin.png" alt="LinkedIn" width={24} height={24} />
         </a>
-        <a href="/">
-          <Image src="/instagram.png" alt="" width={24} height={24} />
+        {/* End of LinkedIn link */}
+        {/* Dribbble Link */}
+        <a href="https://diploma.gomycode.app/?id=31673388905675708" target="_blank" rel="noopener noreferrer">
+          <Image src="/dribbble.png" alt="Dribbble" width={24} height={24} />
         </a>
-        <a href="/">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
+        {/* End of Dribbble link */}
+        {/* Facebook Link */}
+        <a href="https://www.facebook.com/aminexvi/" target="_blank" rel="noopener noreferrer">
+          <Image src="/facebook.png" alt="Facebook" width={24} height={24} />
         </a>
-        <a href="/">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
-        </a>
-        <a href="/">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
-        </a>
+        {/* End of Facebook link */}
       </div>
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
@@ -155,5 +155,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
