@@ -106,11 +106,15 @@ const PortfolioPage = () => {
             </text>
           </motion.svg>
           <Link
-            href="/contact"
-            className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"
-          >
-            Hire Me
-          </Link>
+  href="/contact"
+  className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"
+  style={{ transition: "transform 0.2s", textAlign: "center", lineHeight: "28px" }}
+  onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
+  onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
+>
+  Hire Me
+</Link>
+
         </div>
       </div>
     </motion.div>
