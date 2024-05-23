@@ -38,6 +38,14 @@ const items = [
     img: "/geo.png",
     link: "https://github.com/Aminsouhail/Get-User-Location-JS",
   },
+  {
+    id: 5,
+    color: "from-purple-300 to-red-300",
+    title: "Image-generation-OpenAI-API",
+    desc: "This project is a simple web application that generates images based on a given text prompt using the OpenAI API.",
+    img: "/open.webp",
+    link: "https://github.com/Aminsouhail/Image-generation---OpenAI-API",
+  },
 ];
 
 const PortfolioPage = () => {
